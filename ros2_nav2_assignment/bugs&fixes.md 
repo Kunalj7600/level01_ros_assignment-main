@@ -1,0 +1,118 @@
+# Bug fixes: Testbed-T1.0.0 starter code
+
+This file lists the bugs I found in the starter code (`testbed_description`,
+`testbed_gazebo`, `testbed_bringup`) and how I fixed each one.
+Items 1 to 12 are bugs. Items 13 to 16 are hardening changes that I made after
+inspecting the robot geometry, so they are my judgement and were not observed as hard failures.
+
+How I found them: reading `colcon build` output and the launch/URDF files, checking
+the wheel and lidar meshes, and testing in RViz/Gazebo (`ros2 topic`, `tf2_echo`,
+`view_frames`).
+
+## Bugs
+
+### 1. `testbed_description/CMakeLists.txt`: missing parentheses
+- **Problem:** `colcon build --symlink-install` failed straight away:
+  `CMake Error at CMakeLists.txt:24: Parse error. Expected "(", got newline`.
+  The last line was `ament_package` instead of `ament_package()`.
+- **Fix:** changed it to `ament_package()`.
+
+### 2. `testbed_description/rviz/urdf_vis_rviz`: wrong file name
+- **Problem:** the RViz config had no `.rviz` extension.
+- **Fix:** renamed it to `urdf_vis.rviz`.
+
+### 3. `testbed_bringup/CMakeLists.txt`: `maps/` was never installed
+- **Problem:** `install(DIRECTORY ...)` only listed `launch`, so the map files never
+  reached `install/share/testbed_bringup/maps/` and `map_server` could not find them.
+- **Fix:** added `maps` to the install list.
+
+### 4. `testbed_bringup/maps/testbed_world.yaml`: wrong image path
+- **Problem:** `image: wrong_path_testbed_world.pgm` points at a file that does not exist.
+- **Fix:** `image: testbed_world.pgm`. I checked that the image is 405 x 400 px at
+  0.05 m/px and that the spawn point (0, 5) is free space.
+
+### 5. `testbed_gazebo/launch/spawn_playground.launch.py`: world never loaded
+- **Problem:** the `world` launch argument was declared but never passed to the
+  `gazebo_ros` include, so Gazebo opened an empty world instead of
+  `testbed_playground.world`.
+- **Fix:** passed `launch_arguments={'world': LaunchConfiguration('world')}.items()`
+  to the include.
+
+### 6. `testbed_description/launch/robot_description.launch.py`: no `use_sim_time`
+- **Problem:** `robot_state_publisher` ran on wall time while Gazebo and RViz use sim
+  time, which gives TF timestamp mismatches.
+- **Fix:** added a `use_sim_time` launch argument (default `true`) and passed it to
+  `robot_state_publisher`. Also added an optional `use_joint_state_publisher` argument
+  for RViz-only use.
+
+### 7. `testbed_description/launch/testbed_rviz_barebones.launch.py`: sim time without a clock
+- **Problem:** `use_sim_time` was hardcoded to `True`, but this launch file runs without
+  Gazebo, so there is no `/clock`. In RViz the wheel links showed
+  `No transform from [left_wheel_1] to [base_link]`: they were drawn white and away
+  from the body.
+- **Fix:** `use_sim_time` is now a launch argument, default `false` for this standalone
+  viewer, and it also applies to `rviz2`. The wheels now attach correctly.
+
+### 8. `testbed.xacro`: `libgazebo_ros_control.so` does not exist on Humble
+- **Problem:** that is the ROS 1 plugin name (ROS 2 uses `gazebo_ros2_control`), so
+  Gazebo reports a plugin load error. The diff-drive plugin already moves the robot, and
+  `testbed.trans` (ros_control transmissions) was not used by anything.
+- **Fix:** removed the plugin and the `testbed.trans` include.
+
+### 9. `testbed.gazebo`: nothing published joint states for the wheels
+- **Problem:** the wheel joints are `continuous`, so their TF only exists if something
+  publishes `/joint_states`. In simulation nothing did, and the diff-drive plugin was
+  publishing the wheel TF itself (`publish_wheel_tf`).
+- **Fix:** added `libgazebo_ros_joint_state_publisher.so` for the two wheel joints
+  (remapped to `/joint_states`) and set `publish_wheel_tf` to `false` so the wheel
+  transforms come from one source only.
+
+### 10. `testbed.gazebo`: lidar range was 1.5 m
+- **Problem:** the maximum range was 1.5 m in a room of about 20 x 20 m, so AMCL and the
+  costmaps would see almost nothing.
+- **Fix:** set the maximum range to 12.0 m.
+
+### 11. `testbed.gazebo`: stray `>` in the IMU plugin
+- **Problem:** `</initial_orientation_as_reference>>` had an extra `>`.
+- **Fix:** removed it.
+
+### 12. `testbed.gazebo`: wrong `wheel_separation`
+- **Problem:** `wheel_separation` was 0.35. The wheel meshes are centred at
+  y = +0.1502 and y = -0.2258, which is 0.376 m apart (the 0.1 m wheel diameter was
+  correct). A wrong separation scales every rotation reported on `/odom`.
+- **Fix:** set `wheel_separation` to 0.376.
+
+## Hardening (judgement calls, not observed failures)
+
+### 13. Friction on the drive wheels
+- **Problem:** every link, including the drive wheels, had `mu1 = mu2 = 0.2`, so the
+  wheels would slip and odometry would drift. The fixed casters should slide freely.
+- **Fix:** wheels `mu = 1.0`, casters `mu = 0.01`.
+
+### 14. `self_collide` on every link
+- **Problem:** `self_collide` was `true` on every link, and the wheel meshes overlap
+  the `base_link` mesh by a few millimetres, which can make the model jitter.
+- **Fix:** set it to `false` on all links.
+
+### 15. `base_footprint` position
+- **Problem:** `base_footprint` sat at the `base_link` origin, but the drive axle
+  midpoint is at (-0.0505, -0.0378) in `base_link` coordinates. Diff-drive odometry
+  assumes the axle midpoint, so the robot would appear to orbit when turning.
+- **Fix:** `fixed_base_joint` origin is now `(0.0505, 0.0378, 0)`. The wheel centres
+  are now at y = +0.188 and y = -0.188, x = 0 in the `base_footprint` frame.
+
+### 16. Missing install entries and dependencies
+- **Problem:** `testbed_gazebo/models/` was not installed, although the launch file
+  adds it to `GAZEBO_MODEL_PATH`. The three `package.xml` files also lacked runtime
+  dependencies (`gazebo_ros`, `rviz2`, `xacro`, `robot_state_publisher`,
+  `joint_state_publisher`, `gazebo_plugins`, and the sibling packages).
+- **Fix:** added `models` to the install list and the missing `exec_depend` entries.
+
+## How I checked the fixes
+- The workspace builds with `colcon build --symlink-install`.
+- `ros2 launch testbed_description testbed_rviz_barebones.launch.py` shows the wheels
+  attached to the body.
+- With the full simulation running, `/scan` publishes at about 21 Hz, `/odom` at about
+  80 Hz, and `view_frames` shows `odom -> base_footprint -> base_link -> ...`.
+- Teleop drives the robot, and later AMCL and Nav2 run on top of it (see the
+  `testbed_navigation` README).

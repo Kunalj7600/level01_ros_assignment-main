@@ -1,0 +1,41 @@
+[0.067s] Invoking command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/kunal/.local/bin/cmake --build /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_description -- -j4 -l4
+[0.797s] Invoked command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/kunal/.local/bin/cmake --build /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_description -- -j4 -l4
+[1.182s] Invoking command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/kunal/.local/bin/cmake --install /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_description
+[1.984s] -- Install configuration: ""
+[1.986s] -- Execute custom install script
+[1.987s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/meshes/base_link.stl
+[1.988s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/meshes/caster_1.stl
+[1.989s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/meshes/caster_2.stl
+[1.989s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/meshes/caster_3.stl
+[1.990s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/meshes/caster_4.stl
+[1.991s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/meshes/dummy_link_1.stl
+[1.991s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/meshes/imu_link_1.stl
+[1.992s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/meshes/left_wheel_1.stl
+[1.993s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/meshes/lidar_link_1.stl
+[1.994s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/meshes/right_wheel_1.stl
+[1.994s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/urdf/materials.xacro
+[1.995s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/urdf/testbed.gazebo
+[1.996s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/urdf/testbed.trans
+[1.997s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/urdf/testbed.xacro
+[1.998s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/launch/robot_description.launch.py
+[1.999s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/launch/testbed_rviz_barebones.launch.py
+[2.000s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/rviz/full_bringup.rviz
+[2.002s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/rviz/testbed_barebones.rviz
+[2.002s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/rviz/urdf_gazebo.rviz
+[2.005s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/rviz/urdf_vis.rviz
+[2.005s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/ament_index/resource_index/package_run_dependencies/testbed_description
+[2.006s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/ament_index/resource_index/parent_prefix_path/testbed_description
+[2.011s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/environment/ament_prefix_path.sh
+[2.015s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/environment/ament_prefix_path.dsv
+[2.018s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/environment/path.sh
+[2.018s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/environment/path.dsv
+[2.018s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/local_setup.bash
+[2.019s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/local_setup.sh
+[2.019s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/local_setup.zsh
+[2.019s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/local_setup.dsv
+[2.019s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/package.dsv
+[2.020s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/ament_index/resource_index/packages/testbed_description
+[2.020s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/cmake/testbed_descriptionConfig.cmake
+[2.020s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/cmake/testbed_descriptionConfig-version.cmake
+[2.020s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/package.xml
+[2.022s] Invoked command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/kunal/.local/bin/cmake --install /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_description

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_gazebo/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,232 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Python3::Interpreter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Python3__Interpreter-974d4444b3b3e49147c2.json",
+					"name" : "Python3::Interpreter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Python3::InterpreterMultiConfig::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Python3__InterpreterMultiConfig-c4d7fec14a2625527eb9.json",
+					"name" : "Python3::InterpreterMultiConfig",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_index_cpp::ament_index_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_index_cpp__ament_index_cpp-bb935fe85a7c18604320.json",
+					"name" : "ament_index_cpp::ament_index_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "class_loader::class_loader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-class_loader__class_loader-2ca13d99cf3e4cf600c9.json",
+					"name" : "class_loader::class_loader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "console_bridge::console_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-console_bridge__console_bridge-914c6bd269c4c9a08c70.json",
+					"name" : "console_bridge::console_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pluginlib::pluginlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pluginlib__pluginlib-fed5cc884e0721fe8c73.json",
+					"name" : "pluginlib::pluginlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rcpputils::rcpputils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rcpputils__rcpputils-6755da44d9842a809879.json",
+					"name" : "rcpputils::rcpputils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rcutils::rcutils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rcutils__rcutils-793079de625a3323704f.json",
+					"name" : "rcutils::rcutils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tinyxml2::tinyxml2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tinyxml2__tinyxml2-22efc8505c5811b5b33b.json",
+					"name" : "tinyxml2::tinyxml2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urdf::urdf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urdf__urdf-0c3eff680aff274a55a0.json",
+					"name" : "urdf::urdf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urdf_parser_plugin::urdf_parser_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urdf_parser_plugin__urdf_parser_plugin-128297c3075f8a5050c8.json",
+					"name" : "urdf_parser_plugin::urdf_parser_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urdfdom::urdf_parser::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urdfdom__urdf_parser-37b06c1c3a931543c926.json",
+					"name" : "urdfdom::urdf_parser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urdfdom::urdfdom_model::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urdfdom__urdfdom_model-8ca0bd13f0f167a04aa8.json",
+					"name" : "urdfdom::urdfdom_model",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urdfdom::urdfdom_model_state::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urdfdom__urdfdom_model_state-3b7ac8707d4155fddaa4.json",
+					"name" : "urdfdom::urdfdom_model_state",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urdfdom::urdfdom_sensor::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urdfdom__urdfdom_sensor-b262d4c870bf699b56b2.json",
+					"name" : "urdfdom::urdfdom_sensor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urdfdom::urdfdom_world::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urdfdom__urdfdom_world-cd62fd7bd0bfbcef5fe1.json",
+					"name" : "urdfdom::urdfdom_world",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "urdfdom_headers::urdfdom_headers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-urdfdom_headers__urdfdom_headers-640bbd5945597cf6f7e6.json",
+					"name" : "urdfdom_headers::urdfdom_headers",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					],
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e4030d7abca24bc6433d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "testbed_description",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "testbed_description_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testbed_description_uninstall-f33a2b7cf163002c0a7c.json",
+					"name" : "testbed_description_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8d88cbf6de3d43153f62.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_description",
+		"source" : "/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/src/testbed_description"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}

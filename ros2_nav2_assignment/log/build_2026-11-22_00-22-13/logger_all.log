@@ -1,0 +1,325 @@
+[0.563s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.564s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7236c203c460>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7236c2191f30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7236c2191f30>>)
+[0.777s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.777s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.778s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.840s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.847s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.849s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_bringup) by extension 'ignore'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_bringup) by extension 'ignore_ament_install'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_bringup) by extensions ['colcon_pkg']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_bringup) by extension 'colcon_pkg'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_bringup) by extensions ['colcon_meta']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_bringup) by extension 'colcon_meta'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_bringup) by extensions ['ros']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_bringup) by extension 'ros'
+[0.873s] DEBUG:colcon.colcon_core.package_identification:Package 'src/testbed_bringup' with type 'ros.ament_cmake' and name 'testbed_bringup'
+[0.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_description) by extensions ['ignore', 'ignore_ament_install']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_description) by extension 'ignore'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_description) by extension 'ignore_ament_install'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_description) by extensions ['colcon_pkg']
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_description) by extension 'colcon_pkg'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_description) by extensions ['colcon_meta']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_description) by extension 'colcon_meta'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_description) by extensions ['ros']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_description) by extension 'ros'
+[0.879s] DEBUG:colcon.colcon_core.package_identification:Package 'src/testbed_description' with type 'ros.ament_cmake' and name 'testbed_description'
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_gazebo) by extension 'ignore'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_gazebo) by extension 'ignore_ament_install'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_gazebo) by extensions ['colcon_pkg']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_gazebo) by extension 'colcon_pkg'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_gazebo) by extensions ['colcon_meta']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_gazebo) by extension 'colcon_meta'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_gazebo) by extensions ['ros']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_gazebo) by extension 'ros'
+[0.884s] DEBUG:colcon.colcon_core.package_identification:Package 'src/testbed_gazebo' with type 'ros.ament_cmake' and name 'testbed_gazebo'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_navigation) by extension 'ignore'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_navigation) by extension 'ignore_ament_install'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_navigation) by extensions ['colcon_pkg']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_navigation) by extension 'colcon_pkg'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_navigation) by extensions ['colcon_meta']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_navigation) by extension 'colcon_meta'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_navigation) by extensions ['ros']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/testbed_navigation) by extension 'ros'
+[0.892s] DEBUG:colcon.colcon_core.package_identification:Package 'src/testbed_navigation' with type 'ros.ament_cmake' and name 'testbed_navigation'
+[0.892s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.997s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install
+[1.004s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 473 installed packages in /opt/ros/humble
+[1.015s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'cmake_args' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'cmake_target' from command line to 'None'
+[1.296s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.297s] Level 5:colcon.colcon_core.verb:set package 'testbed_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.297s] DEBUG:colcon.colcon_core.verb:Building package 'testbed_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description', 'merge_install': False, 'path': '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/src/testbed_description', 'symlink_install': True, 'test_result_base': None}
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'cmake_args' from command line to 'None'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'cmake_target' from command line to 'None'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[1.298s] Level 5:colcon.colcon_core.verb:set package 'testbed_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.298s] DEBUG:colcon.colcon_core.verb:Building package 'testbed_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation', 'merge_install': False, 'path': '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/src/testbed_navigation', 'symlink_install': True, 'test_result_base': None}
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.299s] Level 5:colcon.colcon_core.verb:set package 'testbed_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.299s] DEBUG:colcon.colcon_core.verb:Building package 'testbed_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo', 'merge_install': False, 'path': '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/src/testbed_gazebo', 'symlink_install': True, 'test_result_base': None}
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'cmake_args' from command line to 'None'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'cmake_target' from command line to 'None'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.300s] Level 5:colcon.colcon_core.verb:set package 'testbed_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.301s] DEBUG:colcon.colcon_core.verb:Building package 'testbed_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup', 'merge_install': False, 'path': '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/src/testbed_bringup', 'symlink_install': True, 'test_result_base': None}
+[1.301s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.303s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.303s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/src/testbed_description' with build type 'ament_cmake'
+[1.303s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/src/testbed_description'
+[1.312s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.326s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/src/testbed_navigation' with build type 'ament_cmake'
+[1.326s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/src/testbed_navigation'
+[1.329s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.329s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/kunal/.local/bin/cmake --build /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_description -- -j4 -l4
+[1.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/kunal/.local/bin/cmake --build /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation -- -j4 -l4
+[2.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/kunal/.local/bin/cmake --build /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_description -- -j4 -l4
+[2.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/kunal/.local/bin/cmake --install /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_description
+[2.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/kunal/.local/bin/cmake --build /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation -- -j4 -l4
+[2.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/kunal/.local/bin/cmake --install /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation
+[3.331s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_description)
+[3.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/kunal/.local/bin/cmake --install /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_description
+[3.338s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description' for CMake module files
+[3.340s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description' for CMake config files
+[3.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_description', 'cmake_prefix_path')
+[3.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/hook/cmake_prefix_path.ps1'
+[3.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/hook/cmake_prefix_path.dsv'
+[3.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/hook/cmake_prefix_path.sh'
+[3.352s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/bin'
+[3.353s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/lib/pkgconfig/testbed_description.pc'
+[3.353s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/lib/python3.10/site-packages'
+[3.355s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/bin'
+[3.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/package.ps1'
+[3.365s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/package.dsv'
+[3.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/package.sh'
+[3.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/package.bash'
+[3.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/package.zsh'
+[3.387s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/colcon-core/packages/testbed_description)
+[3.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_description)
+[3.390s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description' for CMake module files
+[3.394s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description' for CMake config files
+[3.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_description', 'cmake_prefix_path')
+[3.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/hook/cmake_prefix_path.ps1'
+[3.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/hook/cmake_prefix_path.dsv'
+[3.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/hook/cmake_prefix_path.sh'
+[3.407s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/bin'
+[3.407s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/lib/pkgconfig/testbed_description.pc'
+[3.409s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/lib/python3.10/site-packages'
+[3.411s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/bin'
+[3.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/package.ps1'
+[3.415s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/package.dsv'
+[3.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/package.sh'
+[3.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/package.bash'
+[3.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/package.zsh'
+[3.428s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/colcon-core/packages/testbed_description)
+[3.431s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/src/testbed_gazebo' with build type 'ament_cmake'
+[3.431s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/src/testbed_gazebo'
+[3.433s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_navigation)
+[3.493s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation' for CMake module files
+[3.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/kunal/.local/bin/cmake --install /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation
+[3.498s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation' for CMake config files
+[3.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_navigation', 'cmake_prefix_path')
+[3.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/hook/cmake_prefix_path.ps1'
+[3.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/hook/cmake_prefix_path.dsv'
+[3.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/hook/cmake_prefix_path.sh'
+[3.512s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/bin'
+[3.512s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/lib/pkgconfig/testbed_navigation.pc'
+[3.514s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/lib/python3.10/site-packages'
+[3.516s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/bin'
+[3.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/package.ps1'
+[3.520s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/package.dsv'
+[3.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/package.sh'
+[3.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/package.bash'
+[3.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/package.zsh'
+[3.527s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/colcon-core/packages/testbed_navigation)
+[3.530s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_navigation)
+[3.533s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation' for CMake module files
+[3.549s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation' for CMake config files
+[3.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_navigation', 'cmake_prefix_path')
+[3.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/hook/cmake_prefix_path.ps1'
+[3.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/hook/cmake_prefix_path.dsv'
+[3.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/hook/cmake_prefix_path.sh'
+[3.566s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/bin'
+[3.567s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/lib/pkgconfig/testbed_navigation.pc'
+[3.572s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/lib/python3.10/site-packages'
+[3.578s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/bin'
+[3.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/package.ps1'
+[3.594s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/package.dsv'
+[3.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/package.sh'
+[3.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/package.bash'
+[3.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/package.zsh'
+[3.603s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/colcon-core/packages/testbed_navigation)
+[3.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_gazebo': CMAKE_PREFIX_PATH=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo:/opt/ros/humble /home/kunal/.local/bin/cmake --build /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_gazebo -- -j4 -l4
+[4.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo:/opt/ros/humble /home/kunal/.local/bin/cmake --build /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_gazebo -- -j4 -l4
+[4.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_gazebo': CMAKE_PREFIX_PATH=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo:/opt/ros/humble /home/kunal/.local/bin/cmake --install /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_gazebo
+[4.479s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_gazebo)
+[4.480s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo' for CMake module files
+[4.481s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo' for CMake config files
+[4.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_gazebo', 'cmake_prefix_path')
+[4.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/hook/cmake_prefix_path.ps1'
+[4.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo:/opt/ros/humble /home/kunal/.local/bin/cmake --install /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_gazebo
+[4.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/hook/cmake_prefix_path.dsv'
+[4.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/hook/cmake_prefix_path.sh'
+[4.498s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/bin'
+[4.500s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/lib/pkgconfig/testbed_gazebo.pc'
+[4.511s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/lib/python3.10/site-packages'
+[4.521s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/bin'
+[4.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/package.ps1'
+[4.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/package.dsv'
+[4.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/package.sh'
+[4.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/package.bash'
+[4.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/package.zsh'
+[4.553s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/colcon-core/packages/testbed_gazebo)
+[4.558s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_gazebo)
+[4.559s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo' for CMake module files
+[4.559s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo' for CMake config files
+[4.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_gazebo', 'cmake_prefix_path')
+[4.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/hook/cmake_prefix_path.ps1'
+[4.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/hook/cmake_prefix_path.dsv'
+[4.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/hook/cmake_prefix_path.sh'
+[4.568s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/bin'
+[4.568s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/lib/pkgconfig/testbed_gazebo.pc'
+[4.570s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/lib/python3.10/site-packages'
+[4.572s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/bin'
+[4.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/package.ps1'
+[4.577s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/package.dsv'
+[4.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/package.sh'
+[4.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/package.bash'
+[4.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/package.zsh'
+[4.591s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/colcon-core/packages/testbed_gazebo)
+[4.593s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/src/testbed_bringup' with build type 'ament_cmake'
+[4.593s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/src/testbed_bringup'
+[4.595s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.599s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_bringup': CMAKE_PREFIX_PATH=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup:/opt/ros/humble /home/kunal/.local/bin/cmake --build /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_bringup -- -j4 -l4
+[5.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_bringup' returned '0': CMAKE_PREFIX_PATH=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup:/opt/ros/humble /home/kunal/.local/bin/cmake --build /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_bringup -- -j4 -l4
+[5.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_bringup': CMAKE_PREFIX_PATH=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup:/opt/ros/humble /home/kunal/.local/bin/cmake --install /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_bringup
+[5.486s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_bringup)
+[5.490s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup' for CMake module files
+[5.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_bringup' returned '0': CMAKE_PREFIX_PATH=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation:/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup:/opt/ros/humble /home/kunal/.local/bin/cmake --install /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_bringup
+[5.497s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup' for CMake config files
+[5.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_bringup', 'cmake_prefix_path')
+[5.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/hook/cmake_prefix_path.ps1'
+[5.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/hook/cmake_prefix_path.dsv'
+[5.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/hook/cmake_prefix_path.sh'
+[5.509s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/bin'
+[5.509s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/lib/pkgconfig/testbed_bringup.pc'
+[5.510s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/lib/python3.10/site-packages'
+[5.523s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/bin'
+[5.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/package.ps1'
+[5.528s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/package.dsv'
+[5.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/package.sh'
+[5.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/package.bash'
+[5.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/package.zsh'
+[5.538s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/colcon-core/packages/testbed_bringup)
+[5.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(testbed_bringup)
+[5.546s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup' for CMake module files
+[5.548s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup' for CMake config files
+[5.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('testbed_bringup', 'cmake_prefix_path')
+[5.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/hook/cmake_prefix_path.ps1'
+[5.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/hook/cmake_prefix_path.dsv'
+[5.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/hook/cmake_prefix_path.sh'
+[5.555s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/bin'
+[5.556s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/lib/pkgconfig/testbed_bringup.pc'
+[5.558s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/lib/python3.10/site-packages'
+[5.561s] Level 1:colcon.colcon_core.environment:checking '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/bin'
+[5.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/package.ps1'
+[5.564s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/package.dsv'
+[5.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/package.sh'
+[5.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/package.bash'
+[5.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/package.zsh'
+[5.573s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/colcon-core/packages/testbed_bringup)
+[5.573s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.574s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.574s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.574s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.609s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.609s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.610s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.777s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.778s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/local_setup.ps1'
+[5.780s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/_local_setup_util_ps1.py'
+[5.785s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/setup.ps1'
+[5.789s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/local_setup.sh'
+[5.790s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/_local_setup_util_sh.py'
+[5.793s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/setup.sh'
+[5.802s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/local_setup.bash'
+[5.811s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/setup.bash'
+[5.817s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/local_setup.zsh'
+[5.819s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/setup.zsh'

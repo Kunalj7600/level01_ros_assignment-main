@@ -1,0 +1,62 @@
+[0.036s] Invoking command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_gazebo': AMENT_PREFIX_PATH=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description:/opt/ros/humble /home/kunal/.local/bin/cmake /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/src/testbed_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo
+[0.302s] [33mCMake Warning (deprecated) at CMakeLists.txt:1 (cmake_minimum_required):
+[0.303s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.303s]   CMake.
+[0.303s] 
+[0.303s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.303s]   to tell CMake that the project requires at least <min> but has been updated
+[0.304s]   to work with policies introduced by <max> or earlier.
+[0.304s] This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+[0.304s] to suppress it.
+[0.304s] [0m
+[0.468s] -- The C compiler identification is GNU 11.4.0
+[0.777s] -- The CXX compiler identification is GNU 11.4.0
+[0.829s] -- Detecting C compiler ABI info
+[1.064s] -- Detecting C compiler ABI info - done
+[1.143s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.147s] -- Detecting C compile features
+[1.148s] -- Detecting C compile features - done
+[1.205s] -- Detecting CXX compiler ABI info
+[1.497s] -- Detecting CXX compiler ABI info - done
+[1.560s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.564s] -- Detecting CXX compile features
+[1.564s] -- Detecting CXX compile features - done
+[1.587s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.153s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[2.327s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.444s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[2.447s] -- Found testbed_description: 0.0.0 (/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description/share/testbed_description/cmake)
+[2.457s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.803s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.808s] -- Added test 'lint_cmake' to check CMake code style
+[2.814s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.822s] -- Added test 'xmllint' to check XML markup files
+[2.832s] -- Configuring done (2.5s)
+[2.860s] -- Generating done (0.0s)
+[2.867s] -- Build files have been written to: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_gazebo
+[2.888s] Invoked command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_gazebo' returned '0': AMENT_PREFIX_PATH=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description:/opt/ros/humble /home/kunal/.local/bin/cmake /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/src/testbed_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo
+[2.889s] Invoking command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_gazebo': AMENT_PREFIX_PATH=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description:/opt/ros/humble /home/kunal/.local/bin/cmake --build /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_gazebo -- -j4 -l4
+[3.286s] Invoked command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_gazebo' returned '0': AMENT_PREFIX_PATH=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description:/opt/ros/humble /home/kunal/.local/bin/cmake --build /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_gazebo -- -j4 -l4
+[3.294s] Invoking command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_gazebo': AMENT_PREFIX_PATH=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description:/opt/ros/humble /home/kunal/.local/bin/cmake --install /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_gazebo
+[3.639s] -- Install configuration: ""
+[3.640s] -- Execute custom install script
+[3.644s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo//launch/spawn_playground.launch.py
+[3.656s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo//launch/spawn_testbed.launch.py
+[3.670s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo//worlds/testbed_empty.world
+[3.691s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo//worlds/testbed_playground.world
+[3.699s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/ament_index/resource_index/package_run_dependencies/testbed_gazebo
+[3.709s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/ament_index/resource_index/parent_prefix_path/testbed_gazebo
+[3.720s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/environment/ament_prefix_path.sh
+[3.732s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/environment/ament_prefix_path.dsv
+[3.740s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/environment/path.sh
+[3.752s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/environment/path.dsv
+[3.765s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/local_setup.bash
+[3.793s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/local_setup.sh
+[3.812s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/local_setup.zsh
+[3.828s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/local_setup.dsv
+[3.831s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/package.dsv
+[3.848s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/ament_index/resource_index/packages/testbed_gazebo
+[3.854s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/cmake/testbed_gazeboConfig.cmake
+[3.874s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/cmake/testbed_gazeboConfig-version.cmake
+[3.899s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_gazebo/share/testbed_gazebo/package.xml
+[3.922s] Invoked command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_gazebo' returned '0': AMENT_PREFIX_PATH=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_description:/opt/ros/humble /home/kunal/.local/bin/cmake --install /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_gazebo

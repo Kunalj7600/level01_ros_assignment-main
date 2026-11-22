@@ -1,0 +1,18 @@
+[0.152s] Invoking command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/kunal/.local/bin/cmake --build /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation -- -j4 -l4
+[0.601s] Invoked command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/kunal/.local/bin/cmake --build /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation -- -j4 -l4
+[1.021s] Invoking command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/kunal/.local/bin/cmake --install /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation
+[1.276s] -- Install configuration: ""
+[1.280s] -- Execute custom install script
+[1.280s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/launch/aunch.py
+[1.297s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:307 (message):
+[1.298s]   Could not create symlink
+[1.298s]   '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/launch/aunch.py'
+[1.299s]   pointing to
+[1.303s]   '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/src/testbed_navigation/launch/aunch.py'
+[1.303s] Call Stack (most recent call first):
+[1.303s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:101 (_ament_cmake_symlink_install_create_symlink)
+[1.304s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:319 (ament_cmake_symlink_install_directory)
+[1.304s]   cmake_install.cmake:46 (include)
+[1.304s] 
+[1.304s] [0m
+[1.315s] Invoked command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/kunal/.local/bin/cmake --install /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation

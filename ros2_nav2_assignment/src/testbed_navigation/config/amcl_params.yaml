@@ -1,0 +1,31 @@
+amcl:
+  ros__parameters:
+    use_sim_time: true
+
+    base_frame_id: "base_footprint"
+    odom_frame_id: "odom"
+    global_frame_id: "map"
+
+    scan_topic: scan
+    robot_model_type: "nav2_amcl::DifferentialMotionModel"   # Humble's value; check the docs if it complains
+    laser_max_range: 12.0              
+    laser_min_range: -1.0              
+
+    # particles: more is more accurate but slower
+    min_particles: 500
+    max_particles: 2000
+
+    # only update when the robot has moved or turned enough
+    update_min_d: 0.1
+    update_min_a: 0.2
+
+    # start pose, so you don't have to click in RViz each time
+    set_initial_pose: true
+    initial_pose: {x: 0.0, y: 5.0, z: 0.0, yaw: 0.0}
+
+    tf_broadcast: true
+    transform_tolerance: 1.0
+
+    max_particles: 3000
+    recovery_alpha_slow: 0.001
+    recovery_alpha_fast: 0.1

@@ -1,0 +1,22 @@
+[0.092s] Invoking command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /home/kunal/.local/bin/cmake --build /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_bringup -- -j4 -l4
+[0.860s] Invoked command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/kunal/.local/bin/cmake --build /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_bringup -- -j4 -l4
+[1.140s] Invoking command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /home/kunal/.local/bin/cmake --install /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_bringup
+[1.420s] -- Install configuration: ""
+[1.420s] -- Execute custom install script
+[1.427s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup//launch/testbed_full_bringup.launch.py
+[1.429s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/ament_index/resource_index/package_run_dependencies/testbed_bringup
+[1.445s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/ament_index/resource_index/parent_prefix_path/testbed_bringup
+[1.457s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/environment/ament_prefix_path.sh
+[1.471s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/environment/ament_prefix_path.dsv
+[1.484s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/environment/path.sh
+[1.492s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/environment/path.dsv
+[1.510s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/local_setup.bash
+[1.528s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/local_setup.sh
+[1.551s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/local_setup.zsh
+[1.569s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/local_setup.dsv
+[1.585s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/package.dsv
+[1.614s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/ament_index/resource_index/packages/testbed_bringup
+[1.633s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/cmake/testbed_bringupConfig.cmake
+[1.646s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/cmake/testbed_bringupConfig-version.cmake
+[1.667s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_bringup/share/testbed_bringup/package.xml
+[1.695s] Invoked command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/kunal/.local/bin/cmake --install /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_bringup

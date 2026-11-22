@@ -1,0 +1,42 @@
+[0.122s] Invoking command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/kunal/.local/bin/cmake --build /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation -- -j4 -l4
+[0.601s] [33mCMake Warning (deprecated) at CMakeLists.txt:1 (cmake_minimum_required):
+[0.601s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.602s]   CMake.
+[0.602s] 
+[0.602s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.602s]   to tell CMake that the project requires at least <min> but has been updated
+[0.602s]   to work with policies introduced by <max> or earlier.
+[0.602s] This warning is for project developers.  Use -Wno-author or -Wno-deprecated
+[0.602s] to suppress it.
+[0.603s] [0m
+[0.627s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.876s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.931s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.216s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.220s] -- Added test 'lint_cmake' to check CMake code style
+[2.220s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.226s] -- Added test 'xmllint' to check XML markup files
+[2.229s] -- Configuring done (1.6s)
+[2.246s] -- Generating done (0.0s)
+[2.246s] -- Build files have been written to: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation
+[2.316s] Invoked command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/kunal/.local/bin/cmake --build /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation -- -j4 -l4
+[2.327s] Invoking command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/kunal/.local/bin/cmake --install /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation
+[2.789s] -- Install configuration: ""
+[2.789s] -- Execute custom install script
+[2.793s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/launch/map_loader.launch.py
+[2.808s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/ament_index/resource_index/package_run_dependencies/testbed_navigation
+[2.813s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/ament_index/resource_index/parent_prefix_path/testbed_navigation
+[2.815s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/environment/ament_prefix_path.sh
+[2.817s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/environment/ament_prefix_path.dsv
+[2.817s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/environment/path.sh
+[2.821s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/environment/path.dsv
+[2.821s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/local_setup.bash
+[2.821s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/local_setup.sh
+[2.821s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/local_setup.zsh
+[2.825s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/local_setup.dsv
+[2.827s] -- Symlinking: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/package.dsv
+[2.844s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/ament_index/resource_index/packages/testbed_navigation
+[2.844s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/cmake/testbed_navigationConfig.cmake
+[2.844s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/cmake/testbed_navigationConfig-version.cmake
+[2.849s] -- Up-to-date symlink: /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/install/testbed_navigation/share/testbed_navigation/package.xml
+[2.862s] Invoked command in '/home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/kunal/.local/bin/cmake --install /home/kunal/level01_ros_assignment-main/ros2_nav2_assignment/build/testbed_navigation
