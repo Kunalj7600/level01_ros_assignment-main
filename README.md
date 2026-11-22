@@ -174,3 +174,5 @@ All nodes run with `use_sim_time: true`.
 ## Author
 
 - Name: Kunal Singh
+- E-Mail: kunalj6988@gmail.com
+  
