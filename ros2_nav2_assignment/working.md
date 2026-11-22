@@ -173,11 +173,7 @@ All nodes run with `use_sim_time: true`.
 
 ## Demo
 
-<!-- Add a link to your video and/or screenshots here -->
-- Video: _link_
-- Screenshots: _localization and navigation_
-
+- Video: https://drive.google.com/file/d/1gYCdw22jFSbZ3DKL0tcZEM0j2f-MOHKg/view?usp=sharing
 ## Author
 
-- Name: _your full name_
-- Contact: _your phone number and email_
+- Name: Kunal Singh
