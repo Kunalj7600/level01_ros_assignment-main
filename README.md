@@ -138,17 +138,14 @@ All nodes run with `use_sim_time: true`.
    use one of those strings verbatim.
 3. **"Package 'testbed_navigation' not found".** The terminal was sourced before the
    package existed. Rebuilding and sourcing `install/setup.bash` again fixed it.
-4. **Build failed on a stray file (`aunch.py`) in `launch/`.** `--symlink-install` tried to
-   link a file with a typo in its name. I deleted it and removed the stale
-   `build/` and `install/` entries for the package.
-5. **Node names must match the yaml keys.** Nav2 reads parameters from the block whose key
+4. **Node names must match the yaml keys.** Nav2 reads parameters from the block whose key
    equals the node name. Using different names meant the parameter file was silently
    ignored. The names are now `controller_server`, `planner_server`, `behavior_server` and
    `bt_navigator`. Lifecycle managers also need unique names.
-6. **Startup warnings about a transform timeout.** The global costmap logs
+5. **Startup warnings about a transform timeout.** The global costmap logs
    "Timed out waiting for transform from base_footprint to map" for a second or two while it
    activates. It is a start-up race, and it stops once TF is available.
-7. **AMCL lost the robot.** After a restart with the robot away from the spawn pose,
+6. **AMCL lost the robot.** After a restart with the robot away from the spawn pose,
    AMCL locked onto a similar-looking corner about 21 m away. The scan dots still
    looked aligned with the walls because AMCL had found a good local fit. I detected it by
    comparing `/odom` with `ros2 run tf2_ros tf2_echo map base_footprint`, and fixed it by
@@ -158,7 +155,7 @@ All nodes run with `use_sim_time: true`.
    "{header: {frame_id: map}, pose: {pose: {position: {x: X, y: Y}, orientation: {z: QZ, w: QW}}, covariance: [0.25,0,0,0,0,0, 0,0.25,0,0,0,0, 0,0,0,0,0,0, 0,0,0,0,0,0, 0,0,0,0,0,0, 0,0,0,0,0,0.07]}}"
    ```
    Always restart localization with the robot at the spawn pose, or set the pose in RViz.
-8. **Costmap looked misaligned with the scan.** The thick dark bands in the costmap are the
+7. **Costmap looked misaligned with the scan.** The thick dark bands in the costmap are the
    inflated obstacle halo, so scan points sit on the edge of a band even when everything is
    aligned. Alignment should be judged against the raw `/map`, not the costmap.
 
